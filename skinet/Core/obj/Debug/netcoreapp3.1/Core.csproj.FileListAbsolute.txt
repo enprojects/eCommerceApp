@@ -1,0 +1,8 @@
+C:\Users\eyaln\source\Repos\eCommerceApp\skinet\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+C:\Users\eyaln\source\Repos\eCommerceApp\skinet\Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\eyaln\source\Repos\eCommerceApp\skinet\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\eyaln\source\Repos\eCommerceApp\skinet\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+C:\Users\eyaln\source\Repos\eCommerceApp\skinet\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+C:\Users\eyaln\source\Repos\eCommerceApp\skinet\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\eyaln\source\Repos\eCommerceApp\skinet\Core\obj\Debug\netcoreapp3.1\Core.dll
+C:\Users\eyaln\source\Repos\eCommerceApp\skinet\Core\obj\Debug\netcoreapp3.1\Core.pdb
