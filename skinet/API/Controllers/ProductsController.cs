@@ -16,7 +16,7 @@ namespace API.Controllers
             _ctx = ctx;
         }
 
-        [HttpGet]
+        [HttpGet]   
         public async Task<IActionResult> Index()
         {
             var products = await _ctx.Products.ToListAsync();
