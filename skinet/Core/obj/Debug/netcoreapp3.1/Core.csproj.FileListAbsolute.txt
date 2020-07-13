@@ -6,3 +6,4 @@ C:\Users\eyaln\source\Repos\eCommerceApp\skinet\Core\obj\Debug\netcoreapp3.1\Cor
 C:\Users\eyaln\source\Repos\eCommerceApp\skinet\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
 C:\Users\eyaln\source\Repos\eCommerceApp\skinet\Core\obj\Debug\netcoreapp3.1\Core.dll
 C:\Users\eyaln\source\Repos\eCommerceApp\skinet\Core\obj\Debug\netcoreapp3.1\Core.pdb
+C:\Users\eyaln\source\Repos\eCommerceApp\skinet\Core\obj\Debug\netcoreapp3.1\Core.csprojAssemblyReference.cache
