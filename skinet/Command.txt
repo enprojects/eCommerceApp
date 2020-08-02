@@ -1,0 +1,11 @@
+﻿add-migration init (add migration file call init)
+script-migration (create script for the migration)
+update-database (run scripts directly)
+
+add-migration city_prop_name_length -Context PepoleContext -O PepoleMigration (add migration for specific context and create migration output to spesific location)
+
+
+cli 
+
+dotnet ef migrations add  -p(project) -s(start) Api(where connection string is) - o(outpup) lib/file
+

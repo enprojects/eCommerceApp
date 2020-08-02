@@ -1,7 +1,6 @@
 C:\Users\eyaln\source\Repos\eCommerceApp\skinet\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csprojAssemblyReference.cache
 C:\Users\eyaln\source\Repos\eCommerceApp\skinet\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfoInputs.cache
 C:\Users\eyaln\source\Repos\eCommerceApp\skinet\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfo.cs
-C:\Users\eyaln\source\Repos\eCommerceApp\skinet\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CoreCompileInputs.cache
 C:\Users\eyaln\source\Repos\eCommerceApp\skinet\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.deps.json
 C:\Users\eyaln\source\Repos\eCommerceApp\skinet\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.runtimeconfig.json
 C:\Users\eyaln\source\Repos\eCommerceApp\skinet\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.runtimeconfig.dev.json
@@ -13,3 +12,4 @@ C:\Users\eyaln\source\Repos\eCommerceApp\skinet\Infrastructure\obj\Debug\netcore
 C:\Users\eyaln\source\Repos\eCommerceApp\skinet\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.dll
 C:\Users\eyaln\source\Repos\eCommerceApp\skinet\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.pdb
 C:\Users\eyaln\source\Repos\eCommerceApp\skinet\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.genruntimeconfig.cache
+C:\Users\eyaln\source\Repos\eCommerceApp\skinet\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CoreCompileInputs.cache

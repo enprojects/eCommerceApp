@@ -1,0 +1,51 @@
+[
+  {
+    "Name": "prod_0",
+    "Description": "desc . 0",
+    "Price": 2519.5941,
+    "ProductBrandId": 1,
+    "ProductTypeId": 1
+  },
+  {
+    "Name": "prod_1",
+    "Description": "desc . 1",
+    "Price": 2234.3152,
+    "ProductBrandId": 1,
+    "ProductTypeId": 1
+  },
+  {
+    "Name": "prod_2",
+    "Description": "desc . 2",
+    "Price": 2951.6666,
+    "ProductBrandId": 1,
+    "ProductTypeId": 1
+  },
+  {
+    "Name": "prod_3",
+    "Description": "desc . 3",
+    "Price": 1473.6105,
+    "ProductBrandId": 1,
+    "ProductTypeId": 1
+  },
+  {
+    "Name": "prod_4",
+    "Description": "desc . 4",
+    "Price": 2437.727,
+    "ProductBrandId": 1,
+    "ProductTypeId": 1
+  },
+  {
+    "Name": "prod_5",
+    "Description": "desc . 5",
+    "Price": 2528.0623,
+    "ProductBrandId": 1,
+    "ProductTypeId": 1
+  },
+  {
+    "Name": "prod_6",
+    "Description": "desc . 6",
+    "Price": 2869.1694,
+    "ProductBrandId": 1,
+    "ProductTypeId": 1
+  }
+]
