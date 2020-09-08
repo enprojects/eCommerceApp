@@ -13,13 +13,14 @@ namespace Core.Specification
     {
 
         public ProductWithTypeAndBrandSpec(ProductSpecParams productParams)
-            :base(x=> (string.IsNullOrEmpty(productParams.Search) || x.Name.Contains(productParams.Search)) &&
-                      (!productParams.BrandId.HasValue ||  x.ProductBrandId == productParams.BrandId))
+            : base(x => (string.IsNullOrEmpty(productParams.Search) || x.Name.Contains(productParams.Search)) &&
+                       (!productParams.BrandId.HasValue || x.ProductBrandId == productParams.BrandId) &&
+                        (!productParams.TypeId.HasValue || x.ProductTypeId== productParams.TypeId))
         {
             Expression<Func<Product, object>> func = (x) => x.Name;
             AddOrderBy(func);
 
-            switch (productParams.Sort)
+            switch (productParams.SortField)
             {
                 case "price":
                     func = (x) => x.Price;
@@ -36,6 +37,7 @@ namespace Core.Specification
 
             PageNumber = productParams.PageIndex;
             NumberOfRows = productParams.PageSize;
+            IsPagingEnable = true;
         }
 
         public ProductWithTypeAndBrandSpec(int id) :

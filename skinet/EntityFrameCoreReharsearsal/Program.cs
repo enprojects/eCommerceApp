@@ -12,6 +12,7 @@ using API.Data;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Core.Entities;
 using System.Runtime.CompilerServices;
+using Infrastructure.Redis;
 
 namespace EntityFrameCoreReharsearsal
 {
@@ -62,6 +63,10 @@ namespace EntityFrameCoreReharsearsal
             var finalExpr = Expression.Lambda<Func<int, bool>>(exprBody, paramExpr);
 
           var res =   finalExpr.Compile().Invoke(2);
+
+
+        
+
 
             //var builder = new DbContextOptionsBuilder();
             //builder.UseSqlServer(

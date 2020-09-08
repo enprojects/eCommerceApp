@@ -1,0 +1,69 @@
+<div class="container">
+
+  <div class="row">
+    <section class="col-3">
+      <h5 class="text-warning ml-3 mt-4 mb-3">Sort</h5>
+      <!-- <select class="custom-select mb-4"  [ngModel]="sortOptions" (change)="onSortSelected($event.targeg.value)">
+        <option [value]="sortOption.id" *ngFor="let sortOption  of sortOptions"> {{sortOption.display}} </option>
+      </select> -->
+
+      <select class="custom-select mb-4" [(ngModel)]="sortIdSelected" (change)="onSortSelected()">
+        <option [value]="sortOption.id" *ngFor="let sortOption  of sortOptions"> {{sortOption.display}} </option>
+      </select>
+
+      <h5 class="text-warning ml-3"> Brands</h5>
+      <ul class="list-group my-10">
+
+
+        <li class="list-group-item" [class.active]="brand.id == shopParams.brandId" [value]="brand.id"
+          (click)="onBrandSelected(brand.id)" *ngFor="let brand  of brands$| async">{{brand.name}} </li>
+
+      </ul>
+
+      <h5 class="text-warning ml-3 my-3"> Types</h5>
+      <ul class="list-group ">
+        <li [class.active]="productType.id == shopParams.typeId" class="list-group-item"
+          (click)="onTypeIdSelected(productType.id)" *ngFor="let productType  of productTypes$| async">
+          {{productType.name}}
+        </li>
+
+      </ul>
+    </section>
+
+    <section class="col-9">
+
+      <div class="d-flex justify-content-between align-items-center pb-2">
+        <header> <span> Totla records: <strong>{{totalNumberOfRecord}} </strong></span> </header>
+        <div class="form-inline">
+          <input class="form-control mr-2" #search style="width: 300px" placeholder="Search" type="text" (keyup)="onSearchChange$.next(search.value)" #search>
+            <!-- <input class="form-control mr-2" #search style="width: 300px" placeholder="Search" type="text" (keyup)="onSearchChange$.next(search.value)" [(ngModel)]="searchTerm" > -->
+          <!-- <button class="btn btn-outline-primary my-2">Search</button> -->
+          <button class="btn btn-outline-success ml-2 my-2" (click)="resetDataPage()" > Reset</button>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-4 mb-4" *ngFor="let product of products">
+          <app-product-item [product]="product"></app-product-item>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center">
+        <app-pager [pageSize]="shopParams.pageSize" [pageNumber]="shopParams.pageIndex"
+          [totalNumberOfRecord]="totalNumberOfRecord" (pageChanged)="onPageChanged($event)"></app-pager>
+      </div>
+
+
+      <!-- <pagination [boundaryLinks]="true" [totalItems]="totalNumberOfRecord" [itemsPerPage]="shopParams.pageSize" [(ngModel)]="shopParams.pageIndex"
+      (pageChanged)="onPageChanged($event)" previousText="&lsaquo;" nextText="&rsaquo;" firstText="&laquo;"
+      lastText="&raquo;">
+    </pagination> -->
+
+
+
+
+    </section>
+
+  </div>
+</div>

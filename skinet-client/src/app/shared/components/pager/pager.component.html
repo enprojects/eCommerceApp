@@ -1,0 +1,11 @@
+<!-- <pagination [boundaryLinks]="true" [totalItems]="totalNumberOfRecord" [itemsPerPage
+  (pageChanged)="onPageChanged($event)" previousText="&lsaquo;" nextText="&rsaquo;" firstText="&laquo;"
+  lastText="&raquo;">
+</pagination> -->
+
+
+
+<pagination [boundaryLinks]="true" [totalItems]="totalNumberOfRecord" [itemsPerPage]="pageSize" [ngModel]="pageNumber"
+      (pageChanged)="onPageChanged($event)" previousText="&lsaquo;" nextText="&rsaquo;" firstText="&laquo;"
+      lastText="&raquo;">
+    </pagination>

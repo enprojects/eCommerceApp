@@ -1,10 +1,7 @@
-﻿using API.Response;
+﻿using API.Requests;
+using API.Response;
 using AutoMapper;
-using AutoMapper.Configuration;
 using Core.Entities;
-using Microsoft.Extensions.Configuration;
-using System;
-using System.Security.Policy;
 
 namespace API.Helper
 {
@@ -18,9 +15,15 @@ namespace API.Helper
         {
             CreateMap<Product, ProductResponse>()
                 .ForMember(d => d.ProductBrand, o => o.MapFrom(s => s.ProductBrand.Name))
-                .ForMember(d => d.ProductType, o => o.MapFrom(s => s.ProductType.Name))
+                .ForMember(d => d.ProductType, o => o.MapFrom(s => s.ProductType.Name))                
                 // .ForMember(d => d.PictureUrl, PropertyBuilder);
                 .ForMember(d => d.PictureUrl, o=>o.MapFrom<UrlResolver>());
+
+
+
+
+            CreateMap<CustomerBasketRequest, CustomerBasket>();
+            CreateMap<BasketItemRequest, BasketItem>();
 
         }
 

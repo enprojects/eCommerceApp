@@ -29,7 +29,7 @@ namespace Core.Specification
         public int NumberOfRows { get;  set; }
         public int PageNumber { get;  set; }
 
-        public bool IsPagingEnable { get; set; } = true;
+        public bool IsPagingEnable { get; set; } = false;
 
         protected void AddInclude(Expression<Func<T, object>> includeExpression)
         {
